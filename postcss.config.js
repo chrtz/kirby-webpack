@@ -2,7 +2,7 @@ const { appEnv } = require('./main.config')
 
 const config = {
   plugins: {
-    autoprefixer: { browsers: ['last 2 versions'] }
+    autoprefixer: { overrideBrowserslist: ['last 2 versions'] }
   }
 }
 
